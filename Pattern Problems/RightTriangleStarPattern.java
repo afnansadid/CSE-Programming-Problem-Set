@@ -1,3 +1,4 @@
+/**
 This problem will print a right triangle according to input. 
 Sample->
 Input: 5
@@ -9,6 +10,7 @@ Output:
 * * * * * 
 
 Code->
+**/
 
 import java.util.Scanner;
 
