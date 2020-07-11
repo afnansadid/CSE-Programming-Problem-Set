@@ -11,13 +11,9 @@ Output:
 
 Code->
 **/
-
 import java.util.Scanner;
-
 public class RightTriangleStarPattern {
-
 	public static void main(String[] args) {
-		
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Enter Row Number:");
 		int rowNumber=scanner.nextInt();
@@ -32,4 +28,3 @@ public class RightTriangleStarPattern {
 		}
 	}
 }
-
