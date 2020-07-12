@@ -1,0 +1,35 @@
+/**
+This problem will print a Pyramid. 
+Sample->
+Input: 5 (Total row number)
+Output: 
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * * 
+Code->
+**/
+
+import java.util.Scanner;
+
+public class Pyramid {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Enter Row Number:");
+		int rowNumber=scanner.nextInt();
+		Pyramid(rowNumber);
+	}
+	private static void Pyramid(int rowNumber) {
+		for(int i=1;i<=rowNumber;i++) {
+			for(int j=1;j<=rowNumber-i;j++) {
+				System.out.print(" ");
+			}
+			for(int k=1;k<=i;k++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+		}	
+	}
+}
