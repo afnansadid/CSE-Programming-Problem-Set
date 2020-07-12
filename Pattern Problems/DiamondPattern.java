@@ -1,5 +1,5 @@
 /**
-This problem will print a Diamond Pattern. 
+This program will print a Diamond Pattern. 
 Sample->
 Input: 5 (Row Number For First Half)
 Output: 
