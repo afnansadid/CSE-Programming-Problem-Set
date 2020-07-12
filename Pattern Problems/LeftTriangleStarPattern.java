@@ -1,5 +1,5 @@
 /**
-This problem will print a left triangle according to input. 
+This program will print a left triangle according to input. 
 Sample->
 Input: 5
 Output: 
