@@ -1,5 +1,5 @@
 /**
-This problem will print a Reverse Pyramid Star Pattern. 
+This program will print a Reverse Pyramid Star Pattern. 
 Sample->
 Input: 5 (Row Number )
 Output: 
